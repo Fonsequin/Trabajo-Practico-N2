@@ -1,0 +1,24 @@
+#include <iostream> // Solicitar biblioteca
+using namespace std;
+int main() // Funcion
+{
+	float numero1; // Varible Numero 1
+	float numero2; // Variable Numero 3
+	cout << "Calculadora para ver que numero es mayor" << endl; // Presentacion
+	cout << endl; // Separacion
+	cout << "Ingrese el primer numero " << endl; // Pedirle al usuario el 1er numero
+	cin >> numero1; // Dato guardado del numero1 en variable
+	cout << endl; // Separacion
+	cout << "Ahora el siguente numero" << endl; // Pedirle al usuario el 2do numero
+	cin  >> numero2; // Datos guardado del numero2 en variable
+	cout << endl; // Separacion
+	if(numero1 > numero2) // Si el numero 1 es mas grande que el numero 2
+	{
+		cout << numero1 << " es mas grande que " << numero2; // Resultado en pantalla
+	}
+	else if(numero1 < numero2) // Si el numero 2 es mas grande que el numero 1
+	{
+		cout << numero1 << " es menor que " << numero2; // Resultado en pantalla
+	}
+	return 0;
+}
