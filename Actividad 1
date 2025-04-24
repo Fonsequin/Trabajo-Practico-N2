@@ -3,7 +3,7 @@ using namespace std;
 int main() // Funcion
 {
 	float numero1; // Varible Numero 1
-	float numero2; // Variable Numero 3
+	float numero2; // Variable Numero 2
 	cout << "Calculadora para ver que numero es mayor" << endl; // Presentacion
 	cout << endl; // Separacion
 	cout << "Ingrese el primer numero " << endl; // Pedirle al usuario el 1er numero
