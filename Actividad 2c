@@ -12,10 +12,10 @@ int main() // Funcion
 	cout << endl; // Separacion
 	cout << "Ingrese el segundo numero:" << endl; // Entrada del segundo numero
 	cin >> numero2; // Datos guardado de numero
-	cout << endl;
-	cout << "Y por ultime ingrese el tercer numero: " << endl;
-	cin >> numero3;
-	cout << endl;
+	cout << endl; // Separacion
+	cout << "Y por ultime ingrese el tercer numero: " << endl; // Entrada del tercer numero
+	cin >> numero3; // Dato guardado del numero
+	cout << endl; // Separacion
 	if(numero1 > numero2 and numero2 > numero3)
 	{
 		cout << "El numero " << numero1 << " es el mayor y el numero " << numero3 << " es el menor" << endl;
