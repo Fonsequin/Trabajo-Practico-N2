@@ -8,13 +8,13 @@ int main() // Funcion
 	cout << "Ingrese el numero: " << endl; // Entrada del primer numero
 	cin  >> numero1; // Datos guardado de numero
 	cout << endl; // Separacion
-	if(numero1 % 2 == 0)
+	if(numero1 % 2 == 0) // Verifica si el resto del numero al dividir entre 2 es igual a 0
 	{
-		cout << "El numero " << numero1 << " es par.";
+		cout << "El numero " << numero1 << " es par."; // Resultado de que es par expresado en pantalla
 	}
 	else
 	{
-		cout<<"El numero es impar";
+		cout<<"El numero es impar"; // Resultado que es impar expresado en pantalla
 	}
 	return 0;
 }
